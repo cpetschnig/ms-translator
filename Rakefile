@@ -5,8 +5,8 @@ begin
   require 'jeweler'
   Jeweler::Tasks.new do |gem|
     gem.name = "ms-translator"
-    gem.summary = %Q{Lib for Microsoft Translator}
-    gem.description = %Q{TODO: longer description of your gem}
+    gem.summary = %Q{Library for the Microsoft® Translator API}
+    gem.description = %Q{Library for the Microsoft® Translator API}
     gem.email = "info@purevirtual.de"
     gem.homepage = "http://github.com/cpetschnig/ms-translator"
     gem.authors = ["Christoph Petschnig"]

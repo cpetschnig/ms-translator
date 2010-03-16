@@ -18,4 +18,7 @@ coverage
 rdoc
 pkg
 
+## NetBeans
+nbproject
+
 ## PROJECT::SPECIFIC

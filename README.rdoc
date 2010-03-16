@@ -1,6 +1,25 @@
 = ms-translator
 
-Description goes here.
+Ruby library for the Microsoft® Translator API
+
+For more information about the Translator itself, go to http://www.microsofttranslator.com/Tools/
+and http://msdn.microsoft.com/en-us/library/ff512388.aspx
+
+== Usage
+
+Get an AppID from Microsoft/Bing: http://www.bing.com/developers/appids.aspx
+
+Set you App Id. This needs to be done only once during the applications runtime.
+
+  Microsoft::Translator.set_app_id('my_app_id')
+
+Translate:
+
+  Microsoft::Translator('Ruby is a dynamic, open source programming language ' +
+    'with a focus on simplicity and productivity.', 'en', 'ja')
+
+  => "Ruby プログラミング言語シンプルさと生産性を中心とする動的なオープン ソースです。"
+
 
 == Note on Patches/Pull Requests
  
