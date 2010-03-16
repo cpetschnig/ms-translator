@@ -6,11 +6,13 @@ begin
   Jeweler::Tasks.new do |gem|
     gem.name = "ms-translator"
     gem.summary = %Q{Library for the Microsoft® Translator API}
-    gem.description = %Q{Library for the Microsoft® Translator API}
+    gem.description = %Q{Translate text between a large number (>20) languages.}
     gem.email = "info@purevirtual.de"
     gem.homepage = "http://github.com/cpetschnig/ms-translator"
     gem.authors = ["Christoph Petschnig"]
+    gem.add_dependency 'nokogiri'
     gem.add_development_dependency "rspec", ">= 1.2.9"
+    gem.add_development_dependency "fakeweb"
     # gem is a Gem::Specification... see http://www.rubygems.org/read/chapter/20 for additional settings
   end
   Jeweler::GemcutterTasks.new

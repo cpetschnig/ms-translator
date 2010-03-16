@@ -1,4 +1,4 @@
-# translation via http://www.microsofttranslator.com/
+require 'nokogiri'
 
 module Microsoft
   class << self
